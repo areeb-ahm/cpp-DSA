@@ -4,7 +4,7 @@
 #include <vector>
 using namespace std;
 
-void sumAndProduct(vector<int> arr, int &sum, int &product) {
+void sumAndProduct(const vector<int> &arr, int &sum, int &product) {
     for (int i = 0; i < arr.size(); i++) {
         sum += arr[i];
         product *= arr[i];
